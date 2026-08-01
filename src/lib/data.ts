@@ -27,6 +27,14 @@ export const projects = [
     live: "",
   },
   {
+    title: "Netflix UI Clone",
+    description:
+      "A frontend clone of Netflix's authentication flow — including a landing page, sign in, sign up, and forgot password screens. Built from scratch with vanilla HTML, CSS, and JavaScript.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Omarrstm/NetflixDemo",
+    live: "",
+  },
+  {
     title: "Career Portfolio",
     description:
       "This portfolio site — built with Next.js and Tailwind CSS, featuring dark mode, smooth scroll animations, and a fully responsive design.",
