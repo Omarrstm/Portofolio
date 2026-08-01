@@ -1,67 +1,70 @@
 export const personalInfo = {
-  name: "Omar",
+  name: "Omar Rostom",
   title: "Computer Engineer",
-  tagline: "Building reliable, scalable software — one commit at a time.",
+  tagline: "I turn ideas into full-stack products that actually ship.",
   about:
-    "I'm a freshly graduated Computer Engineer passionate about building impactful software. I enjoy working across the stack, solving complex problems, and continuously learning new technologies. Currently open to full-time opportunities.",
-  email: "your@email.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  location: "Your City, Country",
+    "I'm a 22-year-old Computer Engineer freshly graduated from Altınbaş University in Istanbul. I enjoy building things end-to-end — whether that's customizing ERP modules, analyzing data pipelines, or shipping web apps. I've gained hands-on experience through a software development internship and data analysis work, and I'm fluent in Arabic, English, and conversational Turkish. Currently open to full-time Software Engineer opportunities.",
+  email: "omarrestom11@gmail.com",
+  github: "https://github.com/Omarrstm",
+  linkedin: "https://www.linkedin.com/in/omar-rostom-11873a182/",
+  location: "Istanbul, Turkey",
 };
 
 export const skills = {
-  Languages: ["C", "C++", "Python", "JavaScript", "TypeScript", "Java", "SQL"],
+  Languages: ["Python", "JavaScript", "TypeScript", "C", "C++", "SQL"],
   Frontend: ["React", "Next.js", "HTML", "CSS", "Tailwind CSS"],
-  Backend: ["Node.js", "Express", "REST APIs", "PostgreSQL", "MySQL"],
-  Tools: ["Git", "GitHub", "Docker", "Linux", "VS Code", "Figma"],
+  Backend: ["Node.js", "Express", "REST APIs", "PostgreSQL", "Odoo"],
+  Tools: ["Git", "GitHub", "Linux", "VS Code", "Microsoft Office"],
 };
 
 export const projects = [
   {
-    title: "Project One",
+    title: "Real Estate Odoo Module",
     description:
-      "A short description of what the project does, the problem it solves, and who it's for.",
-    tech: ["Next.js", "TypeScript", "Supabase"],
-    github: "https://github.com/yourusername/project-one",
-    live: "https://project-one.vercel.app",
-  },
-  {
-    title: "Project Two",
-    description:
-      "A short description of what the project does, the problem it solves, and who it's for.",
-    tech: ["Python", "FastAPI", "PostgreSQL"],
-    github: "https://github.com/yourusername/project-two",
+      "A full-featured real estate management module built on the Odoo ERP framework. Supports property listings, property types, tagging, offer management, and role-based access control.",
+    tech: ["Python", "Odoo", "XML", "PostgreSQL"],
+    github: "https://github.com/Omarrstm/real_estate",
     live: "",
   },
   {
-    title: "Project Three",
+    title: "Career Portfolio",
     description:
-      "A short description of what the project does, the problem it solves, and who it's for.",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/project-three",
-    live: "https://project-three.vercel.app",
+      "This portfolio site — built with Next.js and Tailwind CSS, featuring dark mode, smooth scroll animations, and a fully responsive design.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/Omarrstm/Portofolio",
+    live: "https://portofolio-jprzqe99q-omar-f4ad.vercel.app",
   },
 ];
 
 export const experience = [
   {
-    role: "Software Engineering Intern",
-    company: "Company Name",
-    period: "Jun 2024 – Aug 2024",
+    role: "Software Developer Intern",
+    company: "EDM Company · Beirut, Lebanon",
+    period: "Jan 2026 – Apr 2026",
     bullets: [
-      "Built X feature that improved Y by Z%",
-      "Collaborated with a team of N engineers on ...",
-      "Wrote unit tests covering N% of new code",
+      "Developed and customized Odoo CRM modules supporting client relationship management workflows.",
+      "Built a real estate management module with property listings, offer handling, and role-based access control.",
+      "Collaborated with senior developers to translate business requirements into functional solutions.",
+      "Tested, debugged, and documented CRM features to ensure reliability in production.",
+    ],
+  },
+  {
+    role: "Web Data Analyst",
+    company: "Oktamam · Istanbul, Turkey (Hybrid)",
+    period: "Jan 2024 – Jan 2025",
+    bullets: [
+      "Analyzed and structured web data while maintaining accuracy and consistency across digital platforms.",
+      "Applied analytical skills to support reporting and data-driven decision making.",
+      "Worked independently and collaboratively in a hybrid environment across multiple projects.",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "B.Sc. in Computer Engineering",
-    school: "Your University",
-    period: "2020 – 2024",
-    gpa: "3.8 / 4.0",
+    degree: "Bachelor of Engineering – Computer Engineering",
+    school: "Altınbaş University · Istanbul, Turkey",
+    period: "Oct 2022 – Jul 2026",
+    gpa: "",
   },
 ];
