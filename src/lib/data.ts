@@ -65,6 +65,6 @@ export const education = [
     degree: "Bachelor of Engineering – Computer Engineering",
     school: "Altınbaş University · Istanbul, Turkey",
     period: "Oct 2022 – Jul 2026",
-    gpa: "",
+    gpa: "3.3 / 4.0",
   },
 ];
