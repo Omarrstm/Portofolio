@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import { personalInfo } from "@/lib/data";
 
 export default function Hero() {
@@ -86,6 +87,7 @@ export default function Hero() {
           {[
             { icon: <FiGithub size={20} />, href: personalInfo.github },
             { icon: <FiLinkedin size={20} />, href: personalInfo.linkedin },
+            { icon: <FaWhatsapp size={20} />, href: personalInfo.whatsapp },
             { icon: <FiMail size={20} />, href: `mailto:${personalInfo.email}` },
           ].map(({ icon, href }, i) => (
             <a

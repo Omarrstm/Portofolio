@@ -7,6 +7,7 @@ export const personalInfo = {
   email: "omarrestom11@gmail.com",
   github: "https://github.com/Omarrstm",
   linkedin: "https://www.linkedin.com/in/omar-rostom-11873a182/",
+  whatsapp: "https://wa.me/905314718803",
   location: "Istanbul, Turkey",
 };
 

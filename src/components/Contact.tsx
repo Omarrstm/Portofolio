@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import { personalInfo } from "@/lib/data";
 
 export default function Contact() {
@@ -43,6 +44,14 @@ export default function Contact() {
               className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
             >
               <FiLinkedin size={20} />
+            </a>
+            <a
+              href={personalInfo.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
+            >
+              <FaWhatsapp size={20} />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}
