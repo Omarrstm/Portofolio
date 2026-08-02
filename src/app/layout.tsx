@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import { personalInfo } from "@/lib/data";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,9 +14,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://portofolio-eight-olive-93.vercel.app";
+const title = `${personalInfo.name} — ${personalInfo.title}`;
+const description = personalInfo.tagline;
+
 export const metadata: Metadata = {
-  title: "Omar — Computer Engineer",
-  description: "Personal portfolio of Omar, a Computer Engineer.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: siteUrl,
+    siteName: title,
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({
