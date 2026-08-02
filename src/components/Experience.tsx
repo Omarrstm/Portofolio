@@ -14,7 +14,7 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl font-bold text-zinc-900 dark:text-white mb-2 flex items-center gap-3">
-            <span className="text-indigo-600 dark:text-indigo-400 font-mono text-lg">04.</span>
+            <span className="text-violet-600 dark:text-violet-400 font-mono text-lg">04.</span>
             Experience & Education
             <span className="flex-1 h-px bg-zinc-200 dark:bg-zinc-800 ml-2" />
           </h2>
@@ -31,7 +31,7 @@ export default function Experience() {
                 <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
                   <div>
                     <h3 className="font-semibold text-zinc-900 dark:text-white">{exp.role}</h3>
-                    <p className="text-indigo-600 dark:text-indigo-400 text-sm">{exp.company}</p>
+                    <p className="text-violet-600 dark:text-violet-400 text-sm">{exp.company}</p>
                   </div>
                   <span className="text-xs font-mono text-zinc-500 dark:text-zinc-400 bg-zinc-100 dark:bg-zinc-700 px-3 py-1 rounded-full">
                     {exp.period}
@@ -40,7 +40,7 @@ export default function Experience() {
                 <ul className="space-y-1.5">
                   {exp.bullets.map((bullet, j) => (
                     <li key={j} className="text-sm text-zinc-600 dark:text-zinc-400 flex gap-2">
-                      <span className="text-indigo-500 mt-1 shrink-0">▸</span>
+                      <span className="text-violet-500 mt-1 shrink-0">▸</span>
                       {bullet}
                     </li>
                   ))}
@@ -59,7 +59,7 @@ export default function Experience() {
                 <div className="flex flex-wrap items-start justify-between gap-2">
                   <div>
                     <h3 className="font-semibold text-zinc-900 dark:text-white">{edu.degree}</h3>
-                    <p className="text-indigo-600 dark:text-indigo-400 text-sm">{edu.school}</p>
+                    <p className="text-violet-600 dark:text-violet-400 text-sm">{edu.school}</p>
                     {edu.gpa && (
                       <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-1">GPA: {edu.gpa}</p>
                     )}

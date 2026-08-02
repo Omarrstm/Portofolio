@@ -14,7 +14,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl font-bold text-zinc-900 dark:text-white mb-2 flex items-center gap-3">
-            <span className="text-indigo-600 dark:text-indigo-400 font-mono text-lg">01.</span>
+            <span className="text-violet-600 dark:text-violet-400 font-mono text-lg">01.</span>
             About Me
             <span className="flex-1 h-px bg-zinc-200 dark:bg-zinc-800 ml-2" />
           </h2>
@@ -24,7 +24,7 @@ export default function About() {
             </p>
             <p className="text-zinc-600 dark:text-zinc-400 text-base leading-8 mt-4">
               Based in{" "}
-              <span className="text-indigo-600 dark:text-indigo-400">
+              <span className="text-violet-600 dark:text-violet-400">
                 {personalInfo.location}
               </span>
               . Always open to discussing new opportunities.

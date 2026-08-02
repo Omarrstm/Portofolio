@@ -28,7 +28,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="font-bold text-lg text-indigo-600 dark:text-indigo-400">
+        <span className="font-bold text-lg text-violet-600 dark:text-violet-400">
           {personalInfo.name}
         </span>
         <div className="flex items-center gap-6">
@@ -37,7 +37,7 @@ export default function Navbar() {
               <li key={link}>
                 <a
                   href={`#${link.toLowerCase()}`}
-                  className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                  className="hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
                 >
                   {link}
                 </a>
