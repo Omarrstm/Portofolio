@@ -14,11 +14,19 @@ export const personalInfo = {
 export const skills = {
   Languages: ["Python", "JavaScript", "TypeScript", "C", "C++", "SQL"],
   Frontend: ["React", "Next.js", "HTML", "CSS", "Tailwind CSS"],
-  Backend: ["Node.js", "Express", "REST APIs", "PostgreSQL", "Odoo"],
+  Backend: ["Node.js", "Express", "REST APIs", "PostgreSQL", "Prisma", "Odoo"],
   Tools: ["Git", "GitHub", "Linux", "VS Code", "Microsoft Office"],
 };
 
 export const projects = [
+  {
+    title: "FitFork",
+    description:
+      "A two-sided marketplace connecting home cooks with buyers who care about their macros. Cooks list meals with full nutrition breakdowns and diet tags; buyers filter by macros/diet and place orders through a real status lifecycle. Built with a hand-rolled auth, schema, and API layer rather than a backend-as-a-service.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
+    github: "https://github.com/Omarrstm/FitFork",
+    live: "https://fitfork-ochre.vercel.app",
+  },
   {
     title: "Real Estate Odoo Module",
     description:
@@ -28,20 +36,12 @@ export const projects = [
     live: "",
   },
   {
-    title: "Netflix UI Clone",
-    description:
-      "A frontend clone of Netflix's authentication flow — including a landing page, sign in, sign up, and forgot password screens. Built from scratch with vanilla HTML, CSS, and JavaScript.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Omarrstm/NetflixDemo",
-    live: "",
-  },
-  {
     title: "Career Portfolio",
     description:
       "This portfolio site — built with Next.js and Tailwind CSS, featuring dark mode, smooth scroll animations, and a fully responsive design.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/Omarrstm/Portofolio",
-    live: "https://portofolio-jprzqe99q-omar-f4ad.vercel.app",
+    live: "https://portofolio-eight-olive-93.vercel.app",
   },
 ];
 
