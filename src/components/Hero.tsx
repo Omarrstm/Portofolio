@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail, FiDownload } from "react-icons/fi";
 import { personalInfo } from "@/lib/data";
 
 export default function Hero() {
@@ -66,6 +66,14 @@ export default function Hero() {
             className="px-6 py-3 rounded-2xl border border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 font-medium hover:border-violet-400 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-violet-50 dark:hover:bg-violet-950/30 transition-all duration-200"
           >
             Contact Me
+          </a>
+          <a
+            href="/Omar_Rostom_Resume.pdf"
+            download
+            className="flex items-center gap-2 px-6 py-3 rounded-2xl border border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 font-medium hover:border-violet-400 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-violet-50 dark:hover:bg-violet-950/30 transition-all duration-200"
+          >
+            <FiDownload size={16} />
+            Resume
           </a>
         </motion.div>
 
