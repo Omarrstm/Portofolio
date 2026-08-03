@@ -22,8 +22,8 @@ export const projects = [
   {
     title: "FitFork",
     description:
-      "A two-sided marketplace connecting home cooks with buyers who care about their macros. Cooks list meals with full nutrition breakdowns and diet tags; buyers filter by macros/diet and place orders through a real status lifecycle. Built with a hand-rolled auth, schema, and API layer rather than a backend-as-a-service.",
-    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
+      "A two-sided marketplace connecting home cooks with buyers who care about their macros. Cooks list meals with full nutrition breakdowns and diet tags; buyers filter by macros/diet, place orders through a real status lifecycle, and leave ratings/reviews. Hand-rolled auth, schema, and API layer rather than a backend-as-a-service, backed by automated tests and CI running on every push.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "NextAuth", "Vitest", "Tailwind CSS"],
     github: "https://github.com/Omarrstm/FitFork",
     live: "https://fitfork-ochre.vercel.app",
   },
