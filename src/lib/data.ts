@@ -20,6 +20,14 @@ export const skills = {
 
 export const projects = [
   {
+    title: "SnapSpend",
+    description:
+      "An offline, on-device expense tracker for Android. Snap a photo of a receipt and on-device OCR (Google ML Kit) parses the merchant, total, and date into an editable form — no cloud API, no account, no network connection required. Full expense history with category filtering and a stats screen breaking down spending by category and month, all backed by local SQLite storage. Covered by Jest unit tests for the receipt-parsing heuristic, with GitHub Actions CI on every push.",
+    tech: ["React Native", "Expo", "TypeScript", "SQLite", "ML Kit", "Jest"],
+    github: "https://github.com/Omarrstm/snapspend",
+    live: "",
+  },
+  {
     title: "FitFork",
     description:
       "A two-sided marketplace connecting home cooks with buyers who care about their macros. Cooks list meals with full nutrition breakdowns and diet tags; buyers filter by macros/diet, place orders through a real status lifecycle, and leave ratings/reviews. Hand-rolled auth, schema, and API layer rather than a backend-as-a-service, backed by automated tests and CI running on every push.",
