@@ -36,14 +36,6 @@ export const projects = [
     live: "https://fitfork-ochre.vercel.app",
   },
   {
-    title: "Real Estate Odoo Module",
-    description:
-      "A full-featured real estate management module built on the Odoo ERP framework. Supports property listings, property types, tagging, offer management, and role-based access control.",
-    tech: ["Python", "Odoo", "XML", "PostgreSQL"],
-    github: "https://github.com/Omarrstm/real_estate",
-    live: "",
-  },
-  {
     title: "TheTouristGuide",
     description:
       "A full-stack travel review platform where travelers rate and review places, message local guides, and plan trips into shareable itineraries. Includes an interactive map (Leaflet/OpenStreetMap), an admin moderation queue for reported content, in-app and email notifications, and guide ratings — all backed by a normalized Postgres schema with 15+ Prisma models.",
