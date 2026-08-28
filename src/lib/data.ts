@@ -44,12 +44,20 @@ export const projects = [
     live: "",
   },
   {
-    title: "Career Portfolio",
+    title: "TheTouristGuide",
     description:
-      "This portfolio site — built with Next.js and Tailwind CSS, featuring dark mode, smooth scroll animations, and a fully responsive design.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/Omarrstm/Portofolio",
-    live: "https://portofolio-eight-olive-93.vercel.app",
+      "A full-stack travel review platform where travelers rate and review places, message local guides, and plan trips into shareable itineraries. Includes an interactive map (Leaflet/OpenStreetMap), an admin moderation queue for reported content, in-app and email notifications, and guide ratings — all backed by a normalized Postgres schema with 15+ Prisma models.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS", "Leaflet"],
+    github: "https://github.com/Omarrstm/TheTouristGuide",
+    live: "https://the-tourist-guide.vercel.app",
+  },
+  {
+    title: "Gym Tracker",
+    description:
+      "A self-hosted workout tracker for planning training programs and logging sessions. Build weekly programs with per-exercise targets, log sets against today's workout, and track progress with PR detection and an estimated 1RM chart, plus body-stat tracking with BMI/BMR and a configurable rest timer.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS", "Resend"],
+    github: "https://github.com/Omarrstm/Gym-tracker",
+    live: "https://gym-tracker-chi-tawny.vercel.app",
   },
 ];
 
